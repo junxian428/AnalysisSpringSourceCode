@@ -11,5 +11,7 @@ public class App
     public static void main( String[] args )
     {
         Junxian428Application application = new Junxian428Application(AppConfig.class);
+
+        Object userService = application.getBean("userService");
     }
 }
